@@ -1,0 +1,16 @@
+# App 
+- 2 pages
+- Main page:
+  - `Header` Component: For the top navigation bar.
+  - `HeroSection` 
+    - Component: To display a large banner image and movie information at the top of the page.
+    - Get the first item from the movie API in the popular category
+  - `MovieList` Component: To show multiple horizontal scrollable lists of movies.
+    - Get all items from the movie API in the Popular category
+    - Get all items from the movie API in the  Top Rated  category
+    - Get all items from the movie API in the  Now Playing category
+  - `MovieCard` Item Component of MovieList: To display the poster, title, and rating of an individual movie.
+- Movie Detail Page:
+  - `MovieDetail` Component: To display movie posters, titles, synopses, release dates, genres, and other detailed information.
+  - `TrailerSection` Component: To integrate the YouTube API and allow users to play trailers.
+  - `RelatedMovies` Component: To display a list of related movies.
