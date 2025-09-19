@@ -22,8 +22,8 @@ export default function MovieCard({ movie }: { movie: Movie }) {
           />
         )}
       </div>
-      <div className="mt-2 line-clamp-2 text-sm text-white/90">{title}</div>
-      <div className="text-xs text-white/60">
+      <div className="mt-2 line-clamp-2 text-sm text-[var(--color-foreground)]">{title}</div>
+      <div className="text-xs text-[var(--color-foreground)]">
         ★ {movie.vote_average?.toFixed(1)}
       </div>
     </Link>

@@ -8,7 +8,7 @@ export default function TrailerSection({ detail }: { detail: MovieDetail }) {
   console.log(detail.videos?.results);
   return (
     <section className="mt-6 px-4 md:px-12">
-      <h3 className="mb-3 text-lg font-semibold text-white md:text-xl">
+      <h3 className="mb-3 text-lg font-semibold text-[var(--color-foreground)] md:text-xl">
         Trailer
       </h3>
       <div className="aspect-video w-full overflow-hidden rounded-xl bg-black">

@@ -17,7 +17,7 @@ export default function MovieDetail({ movie }: Props) {
       </div>
       <div className="md:col-span-2 flex flex-col gap-4">
         <h1 className="text-3xl font-bold">{movie.title}</h1>
-        <p className="text-gray-300">{movie.overview}</p>
+        <p className="text-[var(--color-foreground)]">{movie.overview}</p>
         <p>
           <span className="font-semibold">Release:</span> {movie.release_date}
         </p>
